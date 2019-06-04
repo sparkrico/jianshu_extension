@@ -5,7 +5,11 @@
 
 1.下载[file/jianshu.crx](file/jianshu.crx)
 
-2.拖入到浏览器中安装即可
+2.打开[chrome://extensions/](chrome://extensions/)
+
+3.打开开发者模式
+
+4.拖入到浏览器中安装即可
 
 #### 二、功能
 显示图片
