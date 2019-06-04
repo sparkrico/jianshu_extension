@@ -1,9 +1,12 @@
-var images = $(".image-loading");
+var images = $(".image-view");
 
 images.each(function(){
-	var url = $(this).attr("data-original-src");
-	$(this).attr("src",url);
-	$(this).removeClass("image-loading");
-})
+	$(this).removeClass("image-view-maintain");
+	$(this).removeClass("image-view")
+	$(this).css({"position":"absolute","overflow":"hidden","top":"0","left":"0","width":"100%","height":"100%"});
 
-// $(".image-package .image-container .image-view-maintain:after").css("color", "transparent");
+	var img = $(this).children('.image-loading');
+	var url = img.attr("data-original-src");
+	img.attr("src",url);
+	img.removeClass("image-loading");
+})

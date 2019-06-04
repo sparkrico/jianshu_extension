@@ -13,8 +13,8 @@
 开启插件前
 ![images/before.jpg](images/before.jpg)
 开启插件后
-![images/after.jpg](images/after.jpg)
+![images/after.jpg](images/after-1.jpg)
 
 #### 三、TODO
 
-1.去掉文字
+~~1.去掉文字~~
